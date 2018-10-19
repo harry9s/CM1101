@@ -283,9 +283,6 @@ def execute_drop(item_id):
     no such item in the inventory, this function prints "You cannot drop that."
     """
     pass
-    print(item_id)
-    print()
-    print(inventory)
 
     for i in inventory:
         if item_id == i["id"]:
